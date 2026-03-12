@@ -21,5 +21,5 @@ export {
     max4,
     nutrimind,
     logo,
-    flutter
+    flutter,
 }

@@ -24,8 +24,8 @@ import summiz from './summiz.svg'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
-import gps from './gps.svg'
-import inventory from './inventory.svg'
+import gps from './simopo.png'
+import inventory from './sicaf.png'
 import map from './map.svg'
 import chat from './chat.svg'
 import laravel from './laravel.svg'
@@ -38,8 +38,11 @@ import docker from './docker.svg'
 import django from './django.svg'
 import upload from './upload.svg'
 import reactnative from "./reactnative.svg";
+import appseguimiento from './appseguimiento.webp'
+import mms from './mmlogob.webp';
 
 export {
+    appseguimiento,
     django,
     bitbucket,
     docker,
@@ -80,4 +83,5 @@ export {
     chat,
     upload,
     reactnative,
+    mms
 }

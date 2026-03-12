@@ -27,7 +27,7 @@ export function Projects() {
                                 <img
                                     src={project.iconUrl}
                                     alt="Project Icon"
-                                    className="w-1/2 h-1/2 object-contain"
+                                    className="w-3/4 h-3/4 object-contain"
                                 />
                             </div>
                         </div>
@@ -36,9 +36,9 @@ export function Projects() {
                                 {project.name}
                             </h4>
                             <p className="mt-2 text-slate-500">{project.description}</p>
-                            <div className="mt-5 flex items-center gap-2 font-poppins">
+                            <div className="mt-5 flex font-poppins text-sm">
                                 {project.link && (
-                                    <div>
+                                    <div className="flex flex-row gap-2 items-center">
                                         <Link
                                             to={project.link}
                                             target="_blank"
@@ -46,6 +46,25 @@ export function Projects() {
                                             className="font-semibold text-blue-600"
                                         >
                                             Live link
+                                        </Link>
+                                        <img
+                                            src={arrow}
+                                            alt="arrow"
+                                            className="w-4 h-4 object-contain"
+                                        />
+                                    </div>
+                                )}
+                            </div>
+                            <div className="mt-5 flex font-poppins text-sm">
+                                {project.github && (
+                                    <div className="flex flex-row gap-2 items-center">
+                                        <Link
+                                            to={project.github}
+                                            target="_blank"
+                                            rel="noopener norefer"
+                                            className="font-semibold text-blue-600"
+                                        >
+                                            GitHub Repository
                                         </Link>
                                         <img
                                             src={arrow}

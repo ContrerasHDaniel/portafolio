@@ -1,5 +1,5 @@
 import type { TimelineItem } from "types";
-import { bitbucket, chat, css, docker, express, git, github, gps, html, inventory, laravel, map, mongodb, mysql, php, postgres, react, redux, sass, tailwindcss, vue, typescript, javascript, nodejs, reactnative } from "~/assets/icons";
+import { bitbucket, chat, css, docker, express, git, github, gps, html, inventory, laravel, map, mongodb, mysql, php, postgres, react, redux, sass, tailwindcss, vue, typescript, javascript, nodejs, reactnative, appseguimiento, mms } from "~/assets/icons";
 import { altest, max4, nutrimind, snoopy, flutter } from "~/assets/images";
 
 export const experiences: TimelineItem[] = [
@@ -58,31 +58,46 @@ export const experiences: TimelineItem[] = [
 
 export const projects = [
     {
-        iconUrl: map,
-        theme: "btn-back-red",
-        name: "GanTrack",
-        description: "Full Stack system that register data received from GPS devices and renders the position and other information given on a map",
+        iconUrl: appseguimiento,
+        theme: 'btn-back-black',
+        name: 'Nutrimind App de Seguimiento',
+        description: 'Built a react-native application for iOS and Android to manage the appointments and follow-ups of a nutrition consulting company, with features like notifications, calendar integration and a custom CMS for content management',
+        link: "https://play.google.com/store/apps/details?id=nutrimind.net.paginapaciente&hl=es_MX",
+    },
+    {
+        iconUrl: nutrimind,
+        theme: 'btn-back-black',
+        name: 'Nutrimind landing and payment web page',
+        description: 'Built web pages for the landing and payment of a nutrition consulting company, using Laravel and React, with a custom CMS for content management',
+        link: "https://www.nutrimind.net/",
+    },
+    {
+        iconUrl: mms,
+        theme: 'btn-back-white',
+        name: 'Massive SMS Sending System',
+        description: "Built full stack solutions to update and optimize the process of sending massive campaings over SMS for a telecommunications company, using Laravel and VUE, with a custom CMS for content management and scheduling of messages",
+        link: "https://masmensajes.mx/",
+    },
+    {
+        iconUrl: gps,
+        theme: 'btn-back-red',
+        name: 'Real-time Alerting System (SIMOPO)',
+        description: 'Built a web application to manage specialized radiofrequency devices which allows the authorized users to see real-time alerts when assets of interest are detected',
         link: "",
     },
     {
         iconUrl: inventory,
         theme: "btn-back-blue",
-        name: "Inventory Management System",
-        description: "Developed web and mobile applications to manage items in inventories with the printing of RadioFrequency Tags that allows radio-localization of tagged items via specialized hardware",
+        name: "Inventory Management System (SICAF)",
+        description: "Web and mobile applications for inventory management, allowing users to track and manage their inventory efficiently through specialized hardware for the Autonomous University of Zacatecas",
         link: "",
     },
     {
-        iconUrl: gps,
-        theme: 'btn-back-black',
-        name: 'Real-time Alerting System',
-        description: 'Built a web application to manage radiofrequency devices with security purposes that also allows the authorized users to see real-time alerts when assets of interest are detected',
-        link: "",
-    },
-    {
-        iconUrl: chat,
-        theme: 'btn-back-green',
-        name: 'Massive SMS Sending System',
-        description: 'Developed a full-stack solution for sending, monitoring and managing of massive SMS campaigns',
+        iconUrl: map,
+        theme: "btn-back-green",
+        name: "ColTrack",
+        description: "Full Stack system that register data received from GPS devices and renders the position and useful information on a map",
+        github: "https://github.com/ContrerasHDaniel/coltrack",
         link: "",
     },
 ];
