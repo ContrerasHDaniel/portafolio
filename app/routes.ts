@@ -6,6 +6,7 @@ export default [
 
     // Rutas públicas
     route("about", "routes/about.tsx"),
+    route("contact", "routes/contact.tsx"),
 
     route("*", "routes/notfound.tsx"),
 ]

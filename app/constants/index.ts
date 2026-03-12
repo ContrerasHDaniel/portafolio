@@ -7,7 +7,7 @@ export const experiences: TimelineItem[] = [
         company: "SnoopyLabs",
         position: "Full Stack Developer",
         icon: snoopy,
-        iconBg: "#cdb4db",
+        iconBg: "#ac1dff",
         date: "Jun 2019 - Jun 2020",
         points: [
             "Developing real-time web applications using Node.js and vanilla Javascript",
@@ -45,7 +45,7 @@ export const experiences: TimelineItem[] = [
         company: "Nutrimind",
         position: "Full Stack Developer",
         icon: nutrimind,
-        iconBg: "#FFFEEE",
+        iconBg: "#a3f500",
         date: "Jun 2025 - Nov 2025",
         points: [
             "Developing and maintaining web applications using Laravel, CodeIgniter, PHP, HTML, Javascript and mobile apps using React Native with Expo.",

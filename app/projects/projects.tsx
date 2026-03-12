@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { projects } from "../constants";
 import arrow from "../assets/icons/arrow.svg";
+import { CTA } from "CTA/cta";
 
 export function Projects() {
     return (
@@ -78,6 +79,8 @@ export function Projects() {
                     </div>
                 ))}
             </div>
+            <hr className="border-slate-200" />
+            <CTA />
         </main>
     );
 }
