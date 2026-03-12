@@ -20,7 +20,7 @@ export const experiences: TimelineItem[] = [
         position: "Front End Developer",
         icon: altest,
         iconBg: "#39312F",
-        date: "Jun 2019 - Jun 2020",
+        date: "Jun 2020 - Jun 2023",
         points: [
             "Developing and maintaining web applications using React.js, Vue.js and mobile apps using Flutter.",
             "Collaborating with cross-functional teams including back end developers, product owners, and other developers to create high-quality products.",
