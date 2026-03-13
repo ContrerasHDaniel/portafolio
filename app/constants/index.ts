@@ -1,5 +1,5 @@
 import type { TimelineItem } from "types";
-import { bitbucket, chat, css, docker, express, git, github, gps, html, inventory, laravel, map, mongodb, mysql, php, postgres, react, redux, sass, tailwindcss, vue, typescript, javascript, nodejs, reactnative, appseguimiento, mms } from "~/assets/icons";
+import { bitbucket, css, docker, express, git, github, gps, html, inventory, laravel, map, mongodb, mysql, php, postgres, react, redux, sass, tailwindcss, vue, typescript, javascript, nodejs, reactnative, appseguimiento, mms } from "~/assets/icons";
 import { altest, max4, nutrimind, snoopy, flutter } from "~/assets/images";
 
 export const experiences: TimelineItem[] = [
